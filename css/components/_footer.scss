@@ -1,0 +1,48 @@
+.footer {
+	@include clearfix;
+	background: darken($darkgray,6);
+	margin-top: 30px;
+	padding: 50px 40px 30px 40px;
+
+	&__services, &__links {
+		float: left;
+		padding-right: 90px;
+
+
+		@include media('max-width: 700px') { 
+			float: none;
+			padding: 0;
+		}
+	}
+
+	&__links {
+		padding-top: 28px;
+	}
+
+	&__item {
+		font-size: 0.9em;
+		font-family: $montserrat;
+		display: block;
+		padding: 5px 0;
+		margin: 0;
+
+		&--title {
+			color: lighten($darkgray,18);
+		}
+
+		&--link {
+			color: white;
+			@include transition(350ms);
+
+			&:hover, &:focus {
+				color: $yellow;
+			}
+		}
+	}
+
+	&__copyright {
+		display: block;
+		clear: both;
+		padding-top: 40px;
+	}
+}

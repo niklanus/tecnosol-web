@@ -1,0 +1,1 @@
+var viewportWidth=null,viewportHeight=null,navbarHeight=null;$(document).ready(function(){$(window).on("resize",function(){viewportWidth=$(window).width(),viewportHeight=$(window).height(),navbarHeight=$("#navbar").height()}).resize(),$(".js-nav-trigger").click(function(){$(".js-nav-mobile").toggleClass("is-open")})});

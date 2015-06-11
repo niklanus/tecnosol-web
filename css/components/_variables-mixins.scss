@@ -1,0 +1,53 @@
+$gray: #3c3c3c;
+$darkgray: #2a2a2a;
+$yellow: #ffdc00;
+
+$montserrat: 'Montserrat', 'Helvetica Neue', Helvetica, 'Segoe UI', sans-serif;
+$lato: 'Lato', 'Helvetica Neue', Helvetica, 'Segoe UI', sans-serif;
+
+@mixin box-sizing {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin button-reset {
+	border: 0;
+	outline: 0;
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+}
+
+@mixin media($query) {
+	@media only screen and (#{$query}) {
+		@content;
+	}
+}
+
+@mixin retina {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	    @content;
+	}
+}
+
+@mixin clearfix {
+	&:before,
+	&:after {
+	    content: " ";
+	    display: table;
+	}
+	&:after {
+	    clear: both;
+	}
+	& {
+	    *zoom: 1;
+	}
+}
+
+@mixin transition($speed) {
+	-webkit-transition: all $speed;
+	-moz-transition:    all $speed;
+	-o-transition:      all $speed;
+	transition:         all $speed;
+}
