@@ -3,6 +3,9 @@ $navbar-height: 70px;
 .navbar {
 	height: $navbar-height;
 	background: $yellow;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
 	@include clearfix;
 
 	&__logo {
@@ -89,6 +92,7 @@ $navbar-height: 70px;
 	transform: translateY(-100%);
 	z-index: 5;
 	text-align: center;
+	overflow: hidden;
 
 	&__items {
 		list-style: none;
@@ -169,5 +173,13 @@ $navbar-height: 70px;
 	}
 	li:last-child a {
 		border: 0;
+	}
+}
+
+.js-dropdown {
+	list-style: none;
+
+	ul, li {
+		list-style: none;
 	}
 }

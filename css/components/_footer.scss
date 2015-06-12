@@ -1,8 +1,9 @@
 .footer {
 	@include clearfix;
 	background: darken($darkgray,6);
-	margin-top: 30px;
 	padding: 50px 40px 30px 40px;
+	position: relative;
+	z-index: 2;
 
 	&__services, &__links {
 		float: left;

@@ -4,13 +4,12 @@ html {
 	overflow-x: hidden;
 }
 body {
-	min-height: 100%;
+	height: 100%;
 	font-size: 18px;
 	font-family: $lato;
 	color: black;
 	background: $darkgray;
 	position: relative;
-	overflow-x: hidden;
 }
 p {
 	line-height: 1.35em;

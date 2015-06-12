@@ -10,7 +10,7 @@
 
 <div class="services-grid">
 	<div class="services-grid__container">
-		<a href="#" class="services-grid__item services-grid__item--it">
+		<a href="it.php" class="services-grid__item services-grid__item--it">
 			<div class="services-grid__overlay">
 				<h2>Servicios de soporte IT</h2>
 			</div>
@@ -18,7 +18,7 @@
 	</div>
 
 	<div class="services-grid__container">
-		<a href="#" class="services-grid__item services-grid__item--noc">
+		<a href="noc.php" class="services-grid__item services-grid__item--noc">
 			<div class="services-grid__overlay">
 				<h2>NOC (Network Operation Center)</h2>
 			</div>
@@ -26,7 +26,7 @@
 	</div>
 
 	<div class="services-grid__container">
-		<a href="#" class="services-grid__item services-grid__item--gestion">
+		<a href="gestion.php" class="services-grid__item services-grid__item--gestion">
 			<div class="services-grid__overlay">
 				<h2>Gestión de Redes y Seguridad</h2>
 			</div>
@@ -34,7 +34,7 @@
 	</div>
 
 	<div class="services-grid__container">
-		<a href="#" class="services-grid__item services-grid__item--web">
+		<a href="web.php" class="services-grid__item services-grid__item--web">
 			<div class="services-grid__overlay">
 				<h2>Servicios y desarrollo web</h2>
 			</div>
@@ -42,7 +42,7 @@
 	</div>
 
 	<div class="services-grid__container">
-		<a href="#" class="services-grid__item services-grid__item--equip">
+		<a href="equip.php" class="services-grid__item services-grid__item--equip">
 			<div class="services-grid__overlay">
 				<h2>Provisión de equipamiento</h2>
 			</div>
